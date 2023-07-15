@@ -11,6 +11,7 @@ func main() {
 		list := strings.Split(os.Args[1], " ")
 		if len(list) == 1 && os.Args[1] != "" {
 			fmt.Println(os.Args[1])
+		} else if os.Args[1] == "" {
 		} else {
 			count, longest := 0, "string"
 			// grouped := make(map[string]int)
